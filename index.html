@@ -15,27 +15,27 @@
       <input class="input" type="text">
     </div>
     <div class="calc__section-first">
-      <button class="button button_AC">AC</button>
-      <button class="button button_symbol">+</button>
+      <button class="button button_ac" onclick="wipe()">AC</button>
+      <button class="button button_symbol js__button" onclick="show('+')">+</button>
     </div>
     <div class="calc__section-second">
-      <button class="button">7</button>
-      <button class="button">8</button>
-      <button class="button">9</button>
-      <button class="button button_symbol">-</button>
-      <button class="button">4</button>
-      <button class="button">5</button>
-      <button class="button">6</button>
-      <button class="button button_symbol">/</button>
-      <button class="button">1</button>
-      <button class="button">2</button>
-      <button class="button">3</button>
-      <button class="button button_symbol">*</button>
+      <button class="button js__button" onclick="show('7')">7</button>
+      <button class="button js__button" onclick="show('8')">8</button>
+      <button class="button js__button" onclick="show('9')">9</button>
+      <button class="button button_symbol js__button" onclick="show('-')">-</button>
+      <button class="button js__button" onclick="show('4')">4</button>
+      <button class="button js__button" onclick="show('5')">5</button>
+      <button class="button js__button" onclick="show('6')">6</button>
+      <button class="button button_symbol js__button" onclick="show('/')">/</button>
+      <button class="button js__button" onclick="show('1')">1</button>
+      <button class="button js__button" onclick="show('2')">2</button>
+      <button class="button js__button" onclick="show('3')">3</button>
+      <button class="button button_symbol js__button" onclick="show('*')">*</button>
     </div>
     <div class="calc__section-third">
-      <button class="button button_zero">0</button>
-      <button class="button">.</button>
-      <button class="button button_symbol">=</button>
+      <button class="button button_zero js__button" onclick="show('0')">0</button>
+      <button class="button js__button" onclick="show('.')">.</button>
+      <button class="button button_symbol js__res" onclick="calc('=')">=</button>
     </div>
   </form>
   <script src="../Calculator/js/script.js"></script>
